@@ -1,0 +1,20 @@
+Product:
+  - name: string
+  - description: text
+  - cost: decimal
+  - quantity_in_stock: integer if not a unique item)
+  - quantity_on_order: integer
+
+Order:
+  - customer_id: integer
+  - total_amount: decimal
+
+Transaction:
+  - product_id :integer
+  - order_id :integer
+  - amount :decimal
+
+Customer:
+  - first_name
+  - last_name
+  - address
